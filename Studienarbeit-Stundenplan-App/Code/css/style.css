@@ -1,0 +1,79 @@
+html, body {
+	height: 100%;
+}
+
+div[data-role=content]{
+	height: 100%;
+	/*
+	margin-left: 8%;
+	margin-right:8%;
+	*/
+	margin: 0;
+	padding: 0 8% 0 8%;
+
+}
+
+/*
+#index, #index .ui-content {
+		height: 95%;
+		padding: 0;
+}
+*/
+
+.ui-btn{
+	margin:0;
+
+}
+#scroller{
+	height: 50%;
+	overflow-y: scroll;
+}
+
+.postTable {
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-top: 1px solid #d4e7ee;
+    border-right: 1px #d4e7ee solid;
+    border-collapse: collapse;
+}
+ 
+.postTable thead, .oddRow {
+    background: #f5f8fd;
+}
+ 
+.postTable th, .postTable td {
+    padding: 3px 5px;
+    color: #000;
+    border-bottom: 1px #d4e7ee solid;
+    border-left: 1px #d4e7ee solid;
+}
+ 
+.textRight {
+    text-align: right;
+}
+
+.anzeige {
+	padding: 5%;
+}
+
+.raumanzeige {
+	font-weight: bold;
+	font-size: 48px;
+	text-align: center;
+}
+
+.info {
+	text-align: center;
+	font-style: italic;
+}
+
+.uhr {
+	text-align: center;
+	padding-top: 20px;
+	font-style: normal;
+}
+
+.frei {
+	padding: 5%;
+}
+
